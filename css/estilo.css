@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
+*{
+    font-family: Radley;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-weight: 400;
+}
+:root { 
+    --white: #ffffff;
+    --black:  #000000;
+    --primary: #085073;
+    --secondary: #D2E5A5;
+    --third: #F5E86B;
+}
+header {
+    display: flex;
+    border-bottom: 0.5rem solid var(--primary);
+}
+header picture img {
+    height: 7rem;
+}
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 5.0rem;
+}
+header ul li {
+    margin: 0 1.5rem;
+    font-size: 0.75rem;
+}
+header ul li a{
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 2.0;
+}
+    
+footer {
+    background-color: var(--primary);
+    height: 3rem;
+    justify-content: flex-end;
+}
+footer div{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.content {
+    width: 100%;
+    max-width: 1372;
+    margin: 0 auto;
+} 
+/* Specific main */
+main > picture.main > img {
+    width:100%;
+}
+main {
+    min-height: 300px;
+}
+main.index {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+main.login {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.login_logo{
+    width:100%
+}
+.label{
+    width: 93%;
+}
+.label label{
+    font-size: 30px;
+}
+.login_login{
+    margin-top: 10%;
+}
+.conta{
+    color: #085073;
+}
+.login_table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_table form{
+    border: 2px solid #085073;
+    width: 20%;
+}
+.login_table div input{
+    margin: 10px;
+}
