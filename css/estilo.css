@@ -65,8 +65,23 @@ main > picture.main > img {
 main {
     min-height: 300px;
 }
-main.index {
+main .index {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main  picture{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+main div{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     display: flex;
     justify-content: center;
 }
@@ -75,6 +90,11 @@ main.login {
     justify-content: center;
     align-items: flex-end;
 }
+.index section{
+    display: flex;
+     justify-content: center;
+     font-size: 2rem;
+ }
 .login_logo{
     width:100%
 }
@@ -102,3 +122,10 @@ main.login {
 .login_table div input{
     margin: 10px;
 }
+ .login section{
+     background-color: #0C6E9C;
+     
+ }
+
+
+
